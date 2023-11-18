@@ -172,6 +172,15 @@ def listtheory():
     print(sum(ans)) #122
     for ele in ans:
         print(ele)
+    # 2D List 5/5
+    arr=[]
+    rows, cols=5,5
+    for i in range(rows):
+        col = []
+        for j in range(cols):
+           col.append(0)
+        arr.append(col)
+    print(arr)
 
     #Tupple Immutable and list Mutable
     # Tupple -> tp = (1,2,2,43,4)
